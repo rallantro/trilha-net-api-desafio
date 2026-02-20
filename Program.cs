@@ -1,5 +1,6 @@
 using System.Text.Json.Serialization;
 using Microsoft.EntityFrameworkCore;
+using Swashbuckle.AspNetCore;
 using TrilhaApiDesafio.Context;
 
 var builder = WebApplication.CreateBuilder(args);
